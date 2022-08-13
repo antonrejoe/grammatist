@@ -1,0 +1,16 @@
+.top_div{
+
+    background-color:grey;
+
+ /* Padding */
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0px;
+
+}
+
+
+.header{
+
+    display: flex;
+}
