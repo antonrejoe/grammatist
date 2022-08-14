@@ -1,6 +1,8 @@
 .top_div{
 
     background-color:grey;
+    margin-top: 0px;
+    padding: 0%;
 
  /* Padding */
     margin-top: 0%;
@@ -13,4 +15,16 @@
 .header{
 
     display: flex;
+    height: 4rem;
+    margin-top: 0px;
+}
+
+/* Modifying overall */
+
+body{
+    margin: 0%;
+}
+
+:root{
+    background-color: rgb(227, 227, 227);
 }
