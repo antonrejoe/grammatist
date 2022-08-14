@@ -1,8 +1,28 @@
+
+
+/* Modifying overall */
+
+body{
+    margin: 0%;
+}
+
+:root{
+    background-color: rgb(227, 227, 227);
+}
+
+
+
+
+
+
+
+
 .top_div{
 
-    background-color:grey;
+    background-color:rgb(182, 182, 182);
     margin-top: 0px;
     padding: 0%;
+    height: 6rem;
 
  /* Padding */
     margin-top: 0%;
@@ -15,16 +35,21 @@
 .header{
 
     display: flex;
-    height: 4rem;
     margin-top: 0px;
+
+
+    position: relative;
+    margin-bottom: 5rem;
+    background-color: aqua;
+
 }
 
-/* Modifying overall */
 
-body{
-    margin: 0%;
+.logo_name{
+    color: black;
+    font-size: 2rem;
+    font-family:  'Oswald', sans-serif;
+
 }
 
-:root{
-    background-color: rgb(227, 227, 227);
-}
+
