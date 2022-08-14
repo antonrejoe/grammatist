@@ -22,7 +22,7 @@ body{
     background-color:rgb(182, 182, 182);
     margin-top: 0px;
     padding: 0%;
-    height: 6rem;
+    height: 20rem;
 
  /* Padding */
     margin-top: 0%;
@@ -32,24 +32,71 @@ body{
 }
 
 
-.header{
 
-    display: flex;
-    margin-top: 0px;
-
-
-    position: relative;
-    margin-bottom: 5rem;
-    background-color: aqua;
-
-}
 
 
 .logo_name{
     color: black;
     font-size: 2rem;
     font-family:  'Oswald', sans-serif;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 18%;
+    padding-top: 2.5%;
+    
+    border: 2px;
+    position: relative;
+    
+
 
 }
 
+
+.button_liist{
+    margin-top: 0px;
+
+
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-family:  'Oswald', sans-serif;
+    display: flex;
+    height: 17%;
+    
+    
+
+    
+    
+
+
+
+}
+
+.span_content{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    height: 50%;
+    position: relative;
+    margin-top: 46px;
+}
+
+
+
+.button_liist::content{
+    align-self: center;
+    height: auto;
+    align-content: center;
+    
+}
+
+.button_liist:first-child {
+    color: hwb(yellow white black);
+}
+
+
+/*  Moving further in designing */
 
