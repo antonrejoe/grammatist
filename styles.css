@@ -156,3 +156,21 @@ body{
 
 
 
+a:active{
+    color: #000;
+    
+}
+
+a:visited{
+    color: #000;
+}
+
+
+::selection{
+    background-color: #9FD3C7;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
