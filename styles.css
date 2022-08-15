@@ -30,6 +30,7 @@ body{
 :root{
     background-color: #F7ECDE;
     font-family:  'Oswald', sans-serif;
+    line-height: 50px;
     
 }
 
@@ -147,17 +148,24 @@ body{
     font-size: 2rem;
     position: relative;
     
-    margin-top: 2.52%;
+    margin-top: 3%;
     left: 2%;
 
 
 }
 
+.content_details{
+    margin-left: 18%;  
+    margin-right: 18%; 
+    font-size: 30px; 
+    margin-top: 10%;
 
+}
 
 .content_div{
-    margin: 20%;
+    margin: 18%;
     font-size: 25px;
+    margin-top: 5%;
 
 
 }
@@ -178,6 +186,7 @@ a::selection{
 }
 
 
+
 ::selection{
     background-color: #9FD3C7;
     color: black;
@@ -185,7 +194,9 @@ a::selection{
 
 a{
     text-decoration: none;
+    color: black;
 }
+
 
 /* Dark mode */
 
@@ -200,7 +211,7 @@ a{
     width: 10%;
     height: 10%;
     position: relative;
-    margin-top: 2.52%;
+    margin-top: 3%;
     font-size: 2rem;
     margin-left: auto;
     visibility: visible;
@@ -209,3 +220,18 @@ a{
 
 
 
+
+
+
+.shema_pic{
+    width: 100%;
+    
+    position:relative;
+    
+    padding: 5%;
+    left: -5.5%;
+}
+
+.ar{
+    
+}
