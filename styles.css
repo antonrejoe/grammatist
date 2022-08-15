@@ -112,6 +112,15 @@ body{
 
 }
 
+.span_content:hover{
+    color:#F7ECDE ;
+}
+
+
+
+.dark_button:hover , .home_btn:hover{
+    color: #F7ECDE;
+}
 
 
 .button_liist::content{
@@ -138,7 +147,7 @@ body{
     font-size: 2rem;
     position: relative;
     
-    margin-top: 2.5%;
+    margin-top: 2.52%;
     left: 2%;
 
 
@@ -164,6 +173,9 @@ a:active{
 a:visited{
     color: #000;
 }
+a::selection{
+    color: #000;
+}
 
 
 ::selection{
@@ -174,3 +186,26 @@ a:visited{
 a{
     text-decoration: none;
 }
+
+/* Dark mode */
+
+
+.dark_body{
+    background-color: rgb(31, 31, 31);
+    color: grey;
+}
+
+
+.dark_button{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    margin-top: 2.52%;
+    font-size: 2rem;
+    margin-left: auto;
+    visibility: visible;
+
+}
+
+
+
